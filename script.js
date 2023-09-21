@@ -2,7 +2,7 @@
 let levelElement = document.getElementById("level");
 let level = 1;
 while(true){
-	if (levelElement.tagName == "HTML") {
+	if (levelElement.tagName === "HTML") {
 		break;
 	}
 	levelElement = levelElement.parentNode;
